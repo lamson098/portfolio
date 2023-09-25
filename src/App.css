@@ -1,38 +1,1885 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(16, 16, 16);
+  cursor: pointer;
+}
+
+.whitetext {
+  color: aliceblue;
+}
+
+.whitetext:hover {
+  cursor: pointer;
+  color: rgb(240, 195, 135);
+}
+
+.page1 {
+  background-color: rgb(220, 227, 227);
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 248px 50px;
+}
+
+.nav {
+  font-size: 160px;
+  font-family: 'Gruppo', Tahoma, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  height: 300px;
+}
+
+.infor {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(108, 100, 90);
+}
+
+.name {
+  font-weight: bold;
+}
+
+.button {
+  transition: all 0.4s;
+}
+
+.button:hover {
+  font-size: 165px;
+  color: rgb(130, 137, 144);
+}
+
+.page2 {
+  border: 1px solid rgb(222, 218, 218);
+  background-color: rgb(250, 242, 231);
+  display: flex;
+  gap: 30px;
+  padding: 148px 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.about {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding: 20px;
+  margin-left: 20px;
+
+}
+
+.logogit {
+  font-size: 30px;
+}
+
+
+
+.html5 {
+  font-size: 35px;
+  color: rgb(241, 84, 27);
+}
+
+.css3 {
+  font-size: 35px;
+  color: rgb(52, 106, 244);
+}
+
+.js {
+  font-size: 35px;
+  color: rgb(226, 226, 58);
+  background-color: black;
+
+}
+
+.react {
+  font-size: 35px;
+  color: rgb(44, 205, 205);
+}
+
+.sass {
+  font-size: 35px;
+  color: rgb(197, 48, 130);
+}
+
+.skill {
+  display: flex;
+}
+
+.skilllogo {
+  display: flex;
+  gap: 45px;
+}
+
+.skilltitle {
+  font-weight: bold;
+  border-right: solid 1px grey;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.img2 {
+  border-radius: 20px;
+  transition: all 0.4s;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.img2:hover {
+  cursor: pointer;
+  width: 215px;
+}
+
+.img1 {
+  border-radius: 20px;
+  margin-top: 10px;
+  transition: all 0.4s;
+  position: absolute;
+}
+
+.img1:hover {
+  cursor: pointer;
+  width: 175px;
+}
+
+
+.aboutme {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+.img {
+  width: 350px;
+  height: 450px;
+}
+
+
+
+
+.aboutcontain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.abouttitle {
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Page 3 */
+.page3 {
+  background-image: url("./media/4.jpeg");
+  background-repeat: no-repeat;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+
+.head {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.rentnav {
+  display: flex;
+  gap: 5px;
+}
+
+.renthome {
+  margin-right: -50px;
+}
+
+.rentabout {
+  margin-right: -20px;
+}
+
+.rentcontact {
+  margin-left: -25px;
+}
+
+.rentbutton {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.Rentregister {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  justify-content: center;
+  background-color: rgb(248, 83, 24);
+  color: aliceblue;
+  border-radius: 5px;
+  transition: all 0.4s;
+  font-size: 18px;
+
+}
+
+.Rentregister:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.logo {
+  margin-right: -25px;
+}
+
+.rentnavb {
+  font-size: 18px;
+  font-weight: bold;
+  width: 140px;
+  height: 30px;
+  transition: all 0.4s;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rentnavb:hover {
+  cursor: pointer;
+  font-size: 20px;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Rentsign {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  transition: all 0.4s;
+  display: flex;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Rentsign:hover {
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.Banner {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 100px 350px;
+}
+
+.big {
+  font-size: 45px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.rentdetail {
+  color: rgb(100, 99, 99);
+  font-size: 19px;
+  width: 30%;
+}
+
+
+.car {
+  color: orangered;
+}
+
+
+.rentbanerbutton {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.rentbanerbutton-a {
+  font-size: 18px;
+  font-weight: bold;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 83, 24);
+  color: aliceblue;
+  transition: all 0.4s;
+
+
+}
+
+.rentbanerbutton-a:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.rentbanerbutton-b {
+  font-size: 18px;
+  font-weight: bold;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aliceblue;
+  transition: all 0.4s;
+}
+
+.bookcar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+}
+
+
+
+.rentbanerbutton-b:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.selectfirst {
+  display: flex;
+  gap: 200px;
+  font-weight: bold;
+}
+
+.selectsecond {
+  display: flex;
+  gap: 255px;
+  font-weight: bold;
+  align-items: center;
+}
+
+
+.page4 {
+  display: flex;
+  justify-content: center;
+}
+
+.bookcar-button {
+  width: 150px;
+  height: 40px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 83, 24);
+  border-radius: 2px;
+  transition: all 0.4s;
+  margin-left: -20px;
+
+}
+
+.bookcar-button:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.select {
+  border: none;
+  appearance: none;
+}
+
+
+.date {
+  border: none;
+}
+
+.orange {
+  color: rgb(247, 109, 59);
+  margin-right: 10px;
+}
+
+/* page5 */
+
+.tripplan-icon {
+  font-size: 50px;
+}
+
+.page5 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 100px;
+}
+
+.tripplan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+  padding: 10px;
+}
+
+.tripplan-detail {
+  display: flex;
+  gap: 100px;
+}
+
+.detail-detail {
+  width: 250px;
+}
+
+.graytext {
+  color: rgb(93, 93, 93);
+}
+
+.page6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.vehiclemodel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+
+}
+
+.vehiclehead {
+  text-align: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.vehicleretail {
+  display: flex;
+  gap: 60px;
+  padding: 10px;
+}
+
+.vehicletype {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.cartype {
+  height: 60px;
+  padding: 15px 20px;
+  color: black;
+}
+
+.one {
+  background-color: rgb(248, 83, 24);
+  color: aliceblue;
+}
+
+
+.vp-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  gap: 5px;
+  width: 100%;
+  color: aliceblue;
+  background-color: rgb(248, 83, 24);
+}
+
+
+.vehicleprice-detail {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.vp-detail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.vp-detail-item {
+  border: 1px solid black;
+  width: 100%;
+  height: 35px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.vehicleprice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.vp-button {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgb(248, 83, 24);
+  transition: all 0.4s;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.bc-btn {
+  color: aliceblue;
+}
+
+.vp-button:hover {
+  font-size: 20px;
+}
+
+
+.cartype:hover {
+  cursor: pointer;
+}
+
+.page7-head {
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 45px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.page7-img {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.redtext {
+  color: rgb(248, 83, 24);
+  font-weight: bold;
+}
+
+.page7 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.page7-footer {
+  display: flex;
+  padding: 50px 100px;
+  gap: 150px;
+  justify-content: center;
+}
+
+.page7-footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+  font-size: 15px;
+}
+
+
+.page7-footer-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 15px;
+}
+
+.page7-footer-right-text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+}
+
+.footer-logo {
+  font-size: 50px;
+  color: rgb(248, 83, 24);
+}
+
+.footer-button {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 83, 24);
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 19px;
+  transition: all 0.4s;
+}
+
+.footer-button:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.page8 {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 200px 0px;
+  align-items: center;
+}
+
+.pag8-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+  text-align: center;
+
+
+}
+
+.page7-icon {
+  color: rgb(248, 83, 24);
+  font-size: 35px;
+}
+
+.page8-cus {
+  display: flex;
+  gap: 20px;
+}
+
+.qoute-contain {
+  display: flex;
+  gap: 100px;
+}
+
+.cus {
+  border-radius: 100%;
+  height: 50px;
+}
+
+.qoute {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+
+}
+
+.boldtext {
+  font-weight: bold;
+}
+
+.page9 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.page9-head {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.page9-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  height: 600px;
+
+
+}
+
+.page9-context {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.5s;
+  text-align: left;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.page9-body input[type="radio"]:checked+label+.page9-context {
+  max-height: 400px;
+  width: 100%;
+}
+
+.page9-body input[type="radio"] {
+  visibility: hidden;
+
+}
+
+.page9-body input[type="radio"]:checked+label {
+  background-color: rgb(248, 83, 24);
+  color: aliceblue;
+
+}
+
+.page9-body label {
+  background-color: rgb(241, 238, 238);
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+.page9-body label:hover {
+  cursor: pointer;
+}
+
+
+.page9-h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page9-img2 {
+  position: absolute;
+  left: 0;
+
+}
+
+.page10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.page10-head {
+  display: flex;
+  gap: 100px;
+}
+
+.page10-body {
+  border: solid 1px rgb(231, 230, 230);
+  width: 100%;
+  background-color: rgb(252, 251, 249);
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+
+}
+
+.car-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-input {
+  border: none;
+  text-align: center;
+  margin: 10px 0px;
+  height: 35px;
+}
+
+.page10-img:hover {
+  cursor: pointer;
+}
+
+.ar-page1 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+
+}
+
+
+.ar-page1-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  width: 100%;
+
+}
+
+.ar-head1 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 25px;
+
+}
+
+.ar-head3 {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.ar-logo {
+  font-size: 60px;
+}
+
+.ar-page2 {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  padding: 150px 100px;
+  gap: 50px;
+}
+
+
+.ar-page2-left {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 40px;
+  width: 60%;
+  font-size: 20px;
+
+}
+
+.ar-page2-right {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.ar-experience {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ex-left {
+  font-size: 80px;
+  border: 4px solid rgb(254, 212, 134);
+  padding: 10px;
+}
+
+.ex-right {
+  font-size: 22px;
+}
+
+.ar-page3 {
+  background-color: black;
+  color: aliceblue;
+
+
+}
+
+.ar-img {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+
+}
+
+.ar-page3 {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ar-img-contain {
+  position: relative;
+  text-align: left;
+}
+
+.ar-img-contain:hover {
+  cursor: pointer;
+}
+
+.ar-img-title {
+  font-size: 45px;
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+}
+
+.bigtext {
+  font-size: 25px;
+}
+
+.ar-page4 {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 100px;
+}
+
+.ar-page4-contain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ar-page4-item {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 600px;
+  font-size: 18px;
+}
+
+.ar-page4-head {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.cicle-img {
+  border-radius: 100%;
+}
+
+.ar-page5 {
+  background-color: rgb(11, 11, 11);
+  color: aliceblue;
+  border-top: rgb(48, 47, 47) solid 1px;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 20px;
+  align-items: center;
+}
+
+.ar-page5-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ar-head3:hover {
+  cursor: pointer;
+}
+
+
+.res-page1 {
+  background-image: url("./media/25.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  padding-bottom: 200px;
+
+}
+
+.big-text {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.res-page1-contain {
+  width: 60%;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.res-p1-menu {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  gap: 30px;
+  padding: 25px 0px;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  background-color: rgba(21, 21, 21, 0.3);
+  margin-top: 30px;
+
+}
+
+.res-p1-button {
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  background-color: rgb(246, 50, 50);
+  transition: all 0.4s;
+  color: aliceblue;
+}
+
+.res-p1-button:hover {
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.res-page2 {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+  padding: 150px 0px;
+}
+
+.res-page2-left {
+  width: 40%;
+  font-size: 20px;
+
+}
+
+.res-p2-button {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 50, 50);
+  transition: all 0.4s;
+  height: 65px;
+  color: aliceblue;
+  font-size: 19px;
+  font-weight: 550;
+}
+
+.res-p2-button:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.res-page3 {
+  background-color: rgb(247, 244, 251);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.res-page3-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.res-page3-arcodion {
+  display: flex;
+
+}
+
+.res-page3-head {
+  text-align: center;
+  font-size: 25px;
+  padding: 100px 25px 0px;
+}
+
+
+.arcodion-item {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+.res-page3-arcodion-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.res-page3-arcodion-btn {
+  padding: 50px 70px;
+  border: 1px solid rgb(233, 230, 230);
+  background-color: white;
+  transition: all 0.4s;
+}
+
+.res-page3-arcodion-btn:hover {
+  cursor: pointer;
+  font-size: 20.3px;
+  padding: 48px 68px;
+}
+
+.arcodion-item-contain {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  width: 80%;
+  padding-bottom: 150px;
+}
+
+.arcordion-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arcodion-btn-first {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(249, 62, 29);
+  color: aliceblue;
+}
+
+.arcodion-btn-last {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.res-page4 {
+  background-image: url("./media/26.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 26px;
+  padding: 200px 0px;
+  gap: 100px;
+}
+
+.res-page4-left {
+  width: 40%;
+  height: 600px;
+  padding: 100px 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.res-page4-right {
+  width: 40%;
+}
+
+.select-res {
+  color: grey;
+  border: 1px gray solid;
+  height: 35px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+
+.res-page4-left input {
+  width: 100%;
+  height: 35px;
+  padding: 20px;
+  color: gray;
+}
+
+.res-page4-btn {
+  background-color: rgb(251, 39, 16);
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.4s;
+
+}
+
+
+
+.res-page4-btn:hover {
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.res-page5-contain {
+  display: flex;
+  font-size: 23px;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+
+}
+
+
+
+.res-page5-contain:hover {
+  cursor: pointer;
+}
+
+.res-page5-item:hover .res-title {
+  color: rgb(240, 88, 88);
+}
+
+.res-page5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 30px;
+  gap: 100px;
+
+}
+
+.res-page5-head {
+  text-align: center;
+  width: 50%;
+  font-size: 25px;
+}
+
+.day {
+  width: 45%;
+  text-align: center;
+  background-color: black;
   color: white;
+  margin-top: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.res-lastpage {
+  background-color: rgb(247, 57, 47);
+  color: white;
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  padding: 150px 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.lastpage-item {
+  width: 40%;
+
+}
+
+.tabsize {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(204, 203, 203);
+  padding: 25px 0px;
+}
+
+.res-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  border: none;
+}
+
+.app-page3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+  gap: 100px;
+
+}
+
+.app-page3-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.app-page3-contain {
+  width: 80%;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.app-page3-head {
+  text-align: center;
+}
+
+.app-page3 {
+  background-color: rgb(220, 227, 227);
+}
+
+.por-vid {
+  border-radius: 20px;
+  transition: all 0.4s;
+
+}
+
+.por-vid:hover {
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.app-page3-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+
+}
+
+.app-page3-button {
+  transition: all 0.4s;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+
+.app-page3-button:hover {
+  cursor: pointer;
+  font-size: 19px;
+  color: gray;
+}
+
+.app-footer {
+  background-color: rgb(250, 242, 231);
+  padding: 240px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-footer-head {
+  text-align: center;
+}
+
+.app-footer-body {
+  text-align: center;
+}
+
+.inforofme {
+  width: 40%;
+}
+
+.app-page3-head {
+  padding: 10px;
+}
+
+.rentcar {
+  width: 100%;
+  align-items: center;
+}
+
+.res-page2-right {
+  padding-right: 20px;
+}
+
+.res-page2-left {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 970px) {
+  .page9-img2 {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+
+
+
+@media only screen and (max-width: 1150px) {
+  .page1 {
+    display: flex;
+    flex-direction: column;
   }
+
+  .res-p2-button {
+    width: 65%;
+  }
+
+  .res-p1-button:hover {
+    font-size: 20px;
+  }
+
+
+  .res-page3-arcodion-btn {
+    padding: 30px 50px;
+  }
+
+  .res-page3-arcodion-btn:hover {
+    cursor: pointer;
+    font-size: 20.3px;
+    padding: 30px 50px;
+  }
+
+  .res-page1-contain {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .aboutcontain {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .about {
+    align-items: center;
+  }
+
+  .rentcar {
+    width: auto;
+  }
+
+  .rentnav {
+    display: none;
+  }
+
+  .Banner {
+    padding-left: 100px;
+  }
+
+  .vehicleretail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vehicletype {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tripplan-detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .selectfirst {
+    gap: 70px;
+  }
+
+  .selectsecond {
+    gap: 70px;
+  }
+
+  .bookcar {
+    display: flex;
+    align-items: center;
+  }
+
+  .page10-head-right {
+    display: none;
+  }
+
+  .page3 {
+    background-size: contain;
+  }
+
+  .res-page5-contain {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .tabsize {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ar-page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ar-page2-left {
+    width: 80%;
+    gap: 35px;
+  }
+
+  .ar-page2-right {
+    justify-content: center;
+
+  }
+
+  .ar-page4-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .ar-img-title {
+    font-size: 27px;
+  }
+
+
+}
+
+@media only screen and (max-width: 895px) {
+  .nav {
+    font-size: 100px;
+    width: 500px;
+    height: 300px;
+  }
+
+  .res-input {
+    font-size: 10px;
+    height: 30px;
+  }
+
+
+
+
+
+  .res-page4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .res-page4-left {
+    width: 80%;
+  }
+
+  .res-page4-right {
+    width: 80%;
+    background-color: rgba(21, 21, 21, 0.3);
+  }
+
+  .res-page5-head {
+    width: 80%;
+  }
+
+  .res-page3-arcodion-btn {
+    padding: 15px 25px;
+  }
+
+  .res-page3-arcodion-btn:hover {
+    cursor: pointer;
+    font-size: 20.3px;
+    padding: 15px 25px;
+  }
+
+  /* 
+  .res-page3-arcodion {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: none;
+    gap: 20px;
+
+  }
+
+  .arcodion-btn-first {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .arcodion-btn-last {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  } */
+
+  .res-page2-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .button:hover {
+    font-size: 105px;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .res-page2-right {
+    width: 50%;
+    margin-left: 80px;
+  }
+
+  .inforofme {
+    width: 65%;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .app-page3-contain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-page3-contain-revese {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .rentcar {
+    width: auto;
+  }
+
+  .page7-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page7-footer {
+    align-items: center;
+
+  }
+
+  .qoute-contain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page10-body {
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .big {
+    width: 100%;
+  }
+
+  .page7-footer-left {
+    width: 100%;
+  }
+
+  .page7-footer-right {
+    width: 100%;
+  }
+
+  .page9-body {
+    width: 80%;
+  }
+
+  .page6 {
+    padding-top: 0px;
+  }
+
+  .selectfirst {
+    gap: 50px;
+  }
+
+  .selectsecond {
+    gap: 50px;
+  }
+
+  .res-page2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .res-page2-left {
+    width: 70%;
+  }
+
+  .res-page2-right {
+    width: 70%;
+  }
+
+  .arcodion-item-contain {
+    gap: 15px;
+  }
+
+  .ar-page1-head {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .client {
+    width: 80%;
+    text-align: center;
+  }
+
+  .ar-head-media {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 720px) {
+  .ar-page4 {
+    align-items: center;
+    width: 100%;
+  }
+
+
+
+
+  .ar-page4-item {
+    align-items: center;
+
+  }
+
+  .ar-page4-contain {
+    padding-left: 50px;
+  }
+
+  .ar-page5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+    padding: 50px;
+
+  }
+
+  .res-p1-button:hover {
+    font-size: 18px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    font-size: 50px;
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .res-p1-button:hover {
+    font-size: 17px;
+    color: black;
+  }
+
+  .client {
+    width: 60%;
+  }
+
+  .ar-page4-h1 {
+    text-align: center;
+    width: 150%;
+  }
+
+
+  .ar-page4-head {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .ar-img-title {
+    font-size: 20px;
+  }
+
+  .ar-page2-right {
+    padding: 0px;
+    justify-content: flex-start;
+  }
+
+  .ar-page2-left {
+    width: 100%;
+    font-size: 15px;
+    padding: 0;
+    gap: 30px;
+
+  }
+
+  .res-lastpage {
+    font-size: 12px;
+    gap: 20px;
+  }
+
+  .res-input {
+    font-size: 8px;
+    height: 20px;
+  }
+
+  .res-page5-contain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arcodion-item-contain {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .res-page3-arcodion-btn {
+    padding: 15px 15px;
+  }
+
+  .res-page3-arcodion-btn:hover {
+    cursor: pointer;
+    font-size: 20.3px;
+    padding: 15px 15px;
+  }
+
+  .res-page2-left {
+    width: 80%;
+  }
+
+  .res-page2-right {
+    width: 80%;
+  }
+
+  .res-p1-menu {
+    gap: 20px;
+    font-size: 12px;
+  }
+
+
+  .res-page1-contain {
+    width: 100%;
+    font-size: 17px;
+  }
+
+
+  .button:hover {
+    font-size: 55px;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .skilltitle {
+    border: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .rentcar {
+    width: auto;
+  }
+
+  .abouttitle {
+    font-size: 50px;
+  }
+
+  .selectfirst {
+    gap: 20px;
+  }
+
+  .selectsecond {
+    gap: 20px;
+  }
+
 }
