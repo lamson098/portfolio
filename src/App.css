@@ -1557,8 +1557,9 @@ a {
   }
 
   .head {
-    gap: 50px;
+    gap: 30px;
   }
+
 
   .res-input {
     font-size: 10px;
@@ -1995,5 +1996,9 @@ a {
 @media only screen and (max-width: 450px) {
   .ar-head3 {
     width: 170px;
+  }
+
+  .rentbutton {
+    width: 100%;
   }
 }
