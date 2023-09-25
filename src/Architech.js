@@ -11,7 +11,7 @@ import img7 from './media/23.jpeg'
 class Architech extends React.Component {
     render() {
         return (
-            <>
+            <div className="bauhaus">
 
                 <Helmet>
                     <meta charSet="utf-8" />
@@ -150,7 +150,7 @@ class Architech extends React.Component {
 
                 </div>
 
-            </>
+            </div>
 
         )
     }

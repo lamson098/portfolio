@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow-x: hidden;
-
 }
 
+.bauhaus {
+  overflow-x: hidden;
+}
 
 a {
   text-decoration: none;
@@ -708,6 +709,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding: 0px 30px;
 }
 
 .page9-body {
