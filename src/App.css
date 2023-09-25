@@ -1413,6 +1413,12 @@ a {
 }
 
 
+@media only screen and (max-width: 1450px) {
+  .res-page5-contain {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -1508,10 +1514,6 @@ a {
 
   }
 
-  .res-page5-contain {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
 
   .tabsize {
     display: flex;
