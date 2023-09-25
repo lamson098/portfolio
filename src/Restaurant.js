@@ -199,7 +199,7 @@ class Restaurant extends React.Component {
 
     render() {
         return (
-            <>
+            < div className="res">
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Restaurant Wow</title>
@@ -422,9 +422,9 @@ class Restaurant extends React.Component {
                         <br />
                         <p>56/8, los angeles, rochy beach, Santa monica, United states of america - 1205</p>
                         <br />
-                        <p className="boldtext bigtext">012-6532-568-9746</p>
+                        <p className="boldtext bigtext tel">012-6532-568-9746</p>
                         <br />
-                        <p className="boldtext bigtext">012-6532-568-9748</p>
+                        <p className="boldtext bigtext tel">012-6532-568-9748</p>
                     </div>
 
                     <div className="res-lastpage-three lastpage-item">
@@ -437,7 +437,7 @@ class Restaurant extends React.Component {
                     </div>
 
                 </div>
-            </>
+            </ div>
         )
     }
 }

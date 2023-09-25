@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 
 }
 
@@ -293,7 +294,7 @@ a {
 .Banner {
   display: flex;
   flex-direction: column;
-  padding: 150px 100px 350px;
+  padding: 150px 0px 350px;
 }
 
 .big {
@@ -387,24 +388,9 @@ a {
   justify-content: center;
 }
 
-.bookcar-button {
-  width: 150px;
-  height: 40px;
-  color: aliceblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(248, 83, 24);
-  border-radius: 2px;
-  transition: all 0.4s;
-  margin-left: -20px;
 
-}
 
-.bookcar-button:hover {
-  font-size: 20px;
-  cursor: pointer;
-}
+
 
 .select {
   border: none;
@@ -432,7 +418,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px;
+  padding: 100px 0px;
 }
 
 .tripplan {
@@ -469,7 +455,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 100px;
+  padding: 100px 0px;
 
 }
 
@@ -799,7 +785,7 @@ a {
   width: 100%;
   background-color: rgb(252, 251, 249);
   display: flex;
-  padding: 100px;
+  padding: 100px 10px;
   justify-content: space-between;
 
 }
@@ -828,6 +814,7 @@ a {
   align-items: center;
   color: aliceblue;
 
+
 }
 
 
@@ -837,7 +824,6 @@ a {
   justify-content: space-between;
   padding: 50px 100px;
   width: 100%;
-
 }
 
 .ar-head1 {
@@ -862,7 +848,7 @@ a {
   background-color: black;
   color: aliceblue;
   display: flex;
-  padding: 150px 100px;
+  padding: 150px;
   gap: 50px;
 }
 
@@ -872,7 +858,7 @@ a {
   flex-direction: column;
   gap: 60px;
   padding: 40px;
-  width: 60%;
+  width: 100%;
   font-size: 20px;
 
 }
@@ -902,27 +888,28 @@ a {
 .ar-page3 {
   background-color: black;
   color: aliceblue;
-
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 
 }
 
 .ar-img {
   display: flex;
   gap: 50px;
-  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+
 
 }
 
-.ar-page3 {
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
 
 .ar-img-contain {
   position: relative;
   text-align: left;
+
+
 }
 
 .ar-img-contain:hover {
@@ -946,7 +933,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 70px;
-  padding: 100px;
+  padding: 100px 20px;
 }
 
 .ar-page4-contain {
@@ -979,7 +966,6 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 100px 20px;
-  align-items: center;
 }
 
 .ar-page5-contain {
@@ -1264,7 +1250,7 @@ a {
   background-color: rgb(247, 57, 47);
   color: white;
   display: flex;
-  gap: 50px;
+  gap: 100px;
   font-size: 20px;
   padding: 150px 50px;
 }
@@ -1375,6 +1361,7 @@ a {
 
 .inforofme {
   width: 40%;
+  padding-right: 30px;
 }
 
 .app-page3-head {
@@ -1394,6 +1381,23 @@ a {
   padding-left: 20px;
 }
 
+.selecthird:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.selecthird {
+  width: 80%;
+  padding: 5px 0px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  transition: all 0.4s;
+  background-color: orangered;
+  color: aliceblue;
+}
+
 @media only screen and (max-width: 970px) {
   .page9-img2 {
     display: none;
@@ -1403,7 +1407,7 @@ a {
 
 
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1200px) {
   .page1 {
     display: flex;
     flex-direction: column;
@@ -1489,6 +1493,7 @@ a {
 
   .page3 {
     background-size: contain;
+
   }
 
   .res-page5-contain {
@@ -1530,6 +1535,8 @@ a {
   }
 
 
+
+
 }
 
 @media only screen and (max-width: 895px) {
@@ -1539,11 +1546,12 @@ a {
     height: 300px;
   }
 
+
+
   .res-input {
     font-size: 10px;
     height: 30px;
   }
-
 
 
 
@@ -1576,24 +1584,6 @@ a {
     padding: 15px 25px;
   }
 
-  /* 
-  .res-page3-arcodion {
-    display: grid;
-    grid-template-columns: auto auto;
-    border: none;
-    gap: 20px;
-
-  }
-
-  .arcodion-btn-first {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .arcodion-btn-last {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-  } */
 
   .res-page2-left {
     display: flex;
@@ -1657,7 +1647,7 @@ a {
 
   .page10-body {
     padding: 10px;
-    gap: 20px;
+    gap: 50px;
   }
 
   .big {
@@ -1709,6 +1699,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding: 50px 0px;
   }
 
   .client {
@@ -1720,6 +1711,16 @@ a {
     display: none;
   }
 
+  .ar-page5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+
+  }
+
+  .tel {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -1736,22 +1737,22 @@ a {
 
   }
 
-  .ar-page4-contain {
-    padding-left: 50px;
-  }
 
-  .ar-page5 {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 100px;
-    padding: 50px;
-
-  }
 
   .res-p1-button:hover {
     font-size: 18px;
     color: black;
   }
+
+  .ar-page2-left {
+    width: 300px;
+    font-size: 15px;
+    gap: 30px;
+
+  }
+
+
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1760,6 +1761,59 @@ a {
     width: 300px;
     height: 200px;
 
+  }
+
+  .tabsize {
+    padding: 10px 0px;
+  }
+
+
+  .selectfirst {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page10-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .selectsecond {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .bookcar {
+    justify-content: center;
+  }
+
+  .selecthird:hover {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .selecthird {
+    width: 100%;
+    padding: 5px 0px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    transition: all 0.4s;
+    background-color: orangered;
+    color: aliceblue;
+  }
+
+  .rentdetail {
+    width: 100%;
+    margin-top: 85px;
+  }
+
+  .Banner {
+    width: 100%;
+    padding: 200px 50px;
   }
 
   .res-p1-button:hover {
@@ -1773,7 +1827,7 @@ a {
 
   .ar-page4-h1 {
     text-align: center;
-    width: 150%;
+    width: 100%;
   }
 
 
@@ -1784,26 +1838,26 @@ a {
 
 
   .ar-img-title {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .ar-page2-right {
-    padding: 0px;
-    justify-content: flex-start;
+    justify-content: center;
+    width: 500px;
   }
 
-  .ar-page2-left {
+  .lastpage-item {
     width: 100%;
-    font-size: 15px;
-    padding: 0;
-    gap: 30px;
-
   }
 
   .res-lastpage {
     font-size: 12px;
     gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px 20px;
   }
+
 
   .res-input {
     font-size: 8px;
@@ -1821,13 +1875,15 @@ a {
   }
 
   .res-page3-arcodion-btn {
-    padding: 15px 15px;
+    padding: 8px 5px;
+    align-items: center;
+    justify-content: center;
   }
 
   .res-page3-arcodion-btn:hover {
     cursor: pointer;
     font-size: 20.3px;
-    padding: 15px 15px;
+    padding: 8px 5px;
   }
 
   .res-page2-left {
@@ -1882,4 +1938,16 @@ a {
     gap: 20px;
   }
 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .res-p1-menu {
+    display: none;
+  }
+
+  .app-footer {
+    padding: 200px 0px 400px;
+  }
 }

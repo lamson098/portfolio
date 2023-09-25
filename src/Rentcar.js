@@ -231,8 +231,10 @@ class Rent extends React.Component {
                                 <br />
                                 <input type="date" className='date' />
                             </div>
+                            <div className="selecthird">
+                                <h3 >Search</h3>
+                            </div>
 
-                            <h3 className='bookcar-button'>Search</h3>
                         </div>
                     </div>
                 </div>
@@ -294,7 +296,7 @@ class Rent extends React.Component {
                                 <h3 id="Merceedes" className='cartype five' onClick={this.changeinfo4}>Merceedes-Benz GLK</h3>
                                 <h3 id="Passat" className='cartype six' onClick={this.changeinfo5}>VW Passat CC</h3>
                             </div>
-                            <img src={image} alt="cartype" width="500px" />
+                            <img src={image} alt="cartype" width="100%" />
                             <div className="vehicleprice">
                                 <div className="vp-head">
                                     <h2>{price}</h2>
