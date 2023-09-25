@@ -296,7 +296,7 @@ class Rent extends React.Component {
                                 <h3 id="Merceedes" className='cartype five' onClick={this.changeinfo4}>Merceedes-Benz GLK</h3>
                                 <h3 id="Passat" className='cartype six' onClick={this.changeinfo5}>VW Passat CC</h3>
                             </div>
-                            <img src={image} alt="cartype" width="100%" />
+                            <img src={image} alt="cartype" width="50%" className='car' />
                             <div className="vehicleprice">
                                 <div className="vp-head">
                                     <h2>{price}</h2>
@@ -352,7 +352,7 @@ class Rent extends React.Component {
 
                         <div className="page7-footer-right">
                             <div className="page7-footer-right-text">
-                                <i className="footer-logo fa-solid fa-car"></i>
+                                <i className="logo footer-logo fa-solid fa-car"></i>
                                 <div>
                                     <h3>Cross Country Drive</h3>
                                     <br />
@@ -361,7 +361,7 @@ class Rent extends React.Component {
                             </div>
 
                             <div className="page7-footer-right-text">
-                                <i class="footer-logo fa-solid fa-sack-dollar"></i>
+                                <i class="logo footer-logo fa-solid fa-sack-dollar"></i>
                                 <div>
                                     <h3>All Inclusive Pricing</h3>
                                     <br />
@@ -370,7 +370,7 @@ class Rent extends React.Component {
                             </div>
 
                             <div className="page7-footer-right-text">
-                                <i class="footer-logo fa-solid fa-hand-holding-dollar"></i>
+                                <i class="logo footer-logo fa-solid fa-hand-holding-dollar"></i>
                                 <div>
                                     <h3>No Hidden Charges</h3>
                                     <br />
